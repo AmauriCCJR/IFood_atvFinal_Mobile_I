@@ -48,6 +48,9 @@ class _HomePageState extends State<HomePage> {
     'images/hamburguerIcon.png',
     'images/hamburguerIcon.png',
     'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
   ];
   @override
   Widget build(BuildContext context) {
@@ -69,7 +72,10 @@ class _HomePageState extends State<HomePage> {
                   style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
                 ),
                 //ElevatedButton(onPressed: (){}, child: Icon(Icons.keyboard_arrow_down))
-                Icon(Icons.keyboard_arrow_down),
+                TextButton(
+                          onPressed: () {},
+                          child: Icon(Icons.keyboard_arrow_down)
+                        ),
               ],
             ),
           ],
@@ -102,48 +108,25 @@ class _HomePageState extends State<HomePage> {
               Center(
                 child: Wrap(
                   alignment: WrapAlignment.center,
-                  spacing: 20,
-                  runSpacing: 20,
+                  spacing: 25,
+                  runSpacing: 25,
                   children: List.generate(imagens.length, (index) {
-                    return InkWell(
-                      onTap: () {},
-                      borderRadius: BorderRadius.circular(16),
-                      child: SizedBox(
-                        width: 70,
-                        child: Column(
-                          children: [
-                            Container(
-                              width: 60,
-                              height: 60,
-                              decoration: BoxDecoration(
-                                color: Colors.grey.shade100,
-                                borderRadius: BorderRadius.circular(16),
-                              ),
-                              child: Padding(
-                                padding: EdgeInsets.all(8),
-                                child: Image.asset(
-                                  imagens[index],
-                                  fit: BoxFit.contain,
-                                ),
-                              ),
-                            ),
-
-                            SizedBox(height: 6),
-
-                            Text(
+                    return Column( children: [
+                      ElevatedButton(onPressed: (){}, child: Image.asset(imagens[index], height: 40, width: 35) ),
+                      Text(
                               titulos[index],
                               textAlign: TextAlign.center,
                               maxLines: 2,
-                              overflow: TextOverflow.ellipsis,
                               style: TextStyle(
                                 fontSize: 12,
                                 fontWeight: FontWeight.w500,
                               ),
                             ),
-                          ],
-                        ),
-                      ),
-                    );
+
+                    ]
+                  
+                    ) ;
+                    
                   }),
                 ),
               ),
@@ -188,7 +171,7 @@ class _HomePageState extends State<HomePage> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: List.generate(loja.length, (index) => Container(
-                      width: 60, height: 60,
+                      width: 40, height: 40,
                       margin: EdgeInsets.symmetric(horizontal: 10),
                       decoration: BoxDecoration(
                         color: Colors.amber,

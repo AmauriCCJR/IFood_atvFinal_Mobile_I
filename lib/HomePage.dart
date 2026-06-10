@@ -52,6 +52,18 @@ class _HomePageState extends State<HomePage> {
     'images/hamburguerIcon.png',
     'images/hamburguerIcon.png',
   ];
+
+
+    final List<String> nomeLoja = [
+    'Loja 1',
+    'Loja 2',
+    'Loja 3',
+    'Loja 4',
+    'Loja 5',
+    'Loja 6',
+    'Loja 7',
+    'Loja 8'
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -167,19 +179,31 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               Padding(padding: EdgeInsetsGeometry.all(10),
-              child: SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
-                  children: List.generate(loja.length, (index) => Container(
-                      width: 40, height: 40,
-                      margin: EdgeInsets.symmetric(horizontal: 10),
-                      decoration: BoxDecoration(
-                        color: Colors.amber,
-                        shape: BoxShape.circle
-                      ),
-                    ))
+              child: Center(
+                child: Wrap(
+                  alignment: WrapAlignment.center,
+                  spacing: 25,
+                  runSpacing: 25,
+                  children: List.generate(loja.length, (index) {
+                    return SizedBox( child: Column(children: [
+                      ElevatedButton(onPressed: (){}, child: Image.asset(loja[index], height: 40, width: 35) ),
+                      Text(
+                              nomeLoja[index],
+                              textAlign: TextAlign.center,
+                              maxLines: 2,
+                              style: TextStyle(
+                                fontSize: 12,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+
+                    ],) 
                   
-                ),),
+                    ) ;
+                    
+                  }),
+                ),
+              )
               ),
 
 

@@ -34,12 +34,11 @@ class _HomePageState extends State<HomePage> {
     'Ver Mais',
   ];
 
-
- final List<String> ofertas  = [
+  final List<String> cupons = [
     'images/ofertaPadrao.png',
     'images/ofertaPadrao.png',
     'images/ofertaPadrao.png',
-    'images/ofertaPadrao.png'
+    'images/ofertaPadrao.png',
   ];
 
   final List<String> loja = [
@@ -53,8 +52,7 @@ class _HomePageState extends State<HomePage> {
     'images/hamburguerIcon.png',
   ];
 
-
-    final List<String> nomeLoja = [
+  final List<String> nomeLoja = [
     'Loja 1',
     'Loja 2',
     'Loja 3',
@@ -62,7 +60,7 @@ class _HomePageState extends State<HomePage> {
     'Loja 5',
     'Loja 6',
     'Loja 7',
-    'Loja 8'
+    'Loja 8',
   ];
   @override
   Widget build(BuildContext context) {
@@ -83,11 +81,10 @@ class _HomePageState extends State<HomePage> {
                   "Av. Brasil, 99",
                   style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
                 ),
-                //ElevatedButton(onPressed: (){}, child: Icon(Icons.keyboard_arrow_down))
                 TextButton(
-                          onPressed: () {},
-                          child: Icon(Icons.keyboard_arrow_down)
-                        ),
+                  onPressed: () {},
+                  child: Icon(Icons.keyboard_arrow_down),
+                ),
               ],
             ),
           ],
@@ -117,35 +114,33 @@ class _HomePageState extends State<HomePage> {
           padding: EdgeInsets.symmetric(vertical: 30),
           child: Column(
             children: [
-              Padding(padding: EdgeInsets.all(1),
-              child: Center(
-                child: Wrap(
-                  
-                  alignment: WrapAlignment.center,
-                  spacing: 25, 
-                  runSpacing: 25,
-                  children: List.generate(imagens.length, (index) => Column(
-                    children: [
-                      Image.asset(
-                        imagens[index],
-                        width: 40,
-                        height: 40,
+              Padding(
+                padding: EdgeInsets.all(1),
+                child: Center(
+                  child: Wrap(
+                    alignment: WrapAlignment.center,
+                    spacing: 25,
+                    runSpacing: 25,
+                    children: List.generate(
+                      imagens.length,
+                      (index) => Column(
+                        children: [
+                          Image.asset(imagens[index], width: 40, height: 40),
+                          SizedBox(height: 8),
+                          Text(
+                            titulos[index],
+                            textAlign: TextAlign.center,
+                            maxLines: 2,
+                            style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
+                        ],
                       ),
-                      SizedBox(height: 8),
-                      Text(
-                        titulos[index],
-                        textAlign: TextAlign.center,
-                        maxLines: 2,
-                        style: TextStyle(
-                          fontSize: 12,
-                          fontWeight: FontWeight.w500,
-                        ),
-                      ),
-                      
-                    ],
-                  )),
+                    ),
+                  ),
                 ),
-              )
               ),
 
               SizedBox(height: 15),
@@ -178,49 +173,48 @@ class _HomePageState extends State<HomePage> {
                       "A taxa é cortesia pra você",
                       style: TextStyle(color: Colors.grey, fontSize: 14),
                     ),
-                    
                   ],
-                  
                 ),
               ),
               Center(
                 child: SingleChildScrollView(
-            scrollDirection: Axis.horizontal,
-            child: Row(
-              children: List.generate(
-                imagens.length,
-                (index) => Container(
-                  width: 100,
-                    height: 120,
-                    margin: EdgeInsets.symmetric(vertical: 8),
-                    decoration: BoxDecoration(
-                      image: DecorationImage(image: AssetImage(imagens[index])),
-                      borderRadius: BorderRadius.circular(8),
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: List.generate(
+                      imagens.length,
+                      (index) => Container(
+                        width: 100,
+                        height: 120,
+                        margin: EdgeInsets.symmetric(vertical: 8),
+                        decoration: BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage(imagens[index]),
+                          ),
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                      ),
                     ),
+                  ),
                 ),
               ),
-            ),
-          ),
+              SizedBox(
+                height: 100,
+                child: PageView.builder(
+                  itemCount: cupons.length,
+                  itemBuilder: (context, index) => Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 8),
+                    child: Image.asset(cupons[index], fit: BoxFit.cover),
+                  ),
+                ),
               ),
-
-
-
-             ConstrainedBox(
-              constraints: BoxConstraints(maxHeight: 400),
-              child: PageView.builder(
-               
-                
-                itemCount: ofertas.length,
-                itemBuilder: (context, index) => Image.asset(ofertas[index]),
-              ),
-            ),
-            
-          
+              SizedBox(height: 20),
 
 
             ],
           ),
         ),
+
+        
       ),
 
       bottomNavigationBar: BottomNavigationBar(

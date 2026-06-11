@@ -41,6 +41,13 @@ class _HomePageState extends State<HomePage> {
     'images/ofertaPadrao.png',
   ];
 
+  final List<String> promocoes = [
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+  ];
+
   final List<String> loja = [
     'images/hamburguerIcon.png',
     'images/hamburguerIcon.png',
@@ -62,6 +69,44 @@ class _HomePageState extends State<HomePage> {
     'Loja 7',
     'Loja 8',
   ];
+
+
+final List<String> categoria = [
+  'images/hamburguerIcon.png',
+  'images/hamburguerIcon.png',
+  'images/hamburguerIcon.png',
+  'images/hamburguerIcon.png',
+  'images/hamburguerIcon.png',
+  'images/hamburguerIcon.png',
+  'images/hamburguerIcon.png',
+  'images/hamburguerIcon.png',
+  'images/hamburguerIcon.png',
+  'images/hamburguerIcon.png',
+  'images/hamburguerIcon.png',
+  'images/hamburguerIcon.png',
+  'images/hamburguerIcon.png',
+  'images/hamburguerIcon.png',
+  'images/hamburguerIcon.png'
+];
+  final List<String> nomeCategoria = [
+    'Lanches',
+    'Pizza',
+    'Açai',
+    'Promoções',
+    'Brasileira',
+    'Japonesa',
+    'Doces & Bolo',
+    'Pastel',
+    'Sorvetes',
+    'Marmita',
+    'Salgados',
+    'Padaria',
+    'Saudavel',
+    'Carnes',
+    'Italiana'
+  ];
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -208,6 +253,93 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               SizedBox(height: 20),
+              Center(
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: List.generate(
+                      promocoes.length,
+                      (index) => Container(
+                        width: 100,
+                        height: 120,
+                        margin: EdgeInsets.symmetric(vertical: 8),
+                        decoration: BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage(promocoes[index]),
+                          ),
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(height: 90,
+              child: SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                  child: Row(
+                    spacing: 25,
+                    children: List.generate(
+                      categoria.length,
+                      (index) => Column(
+                        children: [
+                          Image.asset(categoria[index], width: 40, height: 40),
+                          SizedBox(height: 8),
+                          Text(
+                            nomeCategoria[index],
+                            textAlign: TextAlign.center,
+                            maxLines: 2,
+                            style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
+                        ],
+                      ),
+                    
+                  ),
+                  ),
+                    
+                    
+                ),
+              ),
+
+              Padding(
+                padding: EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Farmácias famosas",
+                          style: TextStyle(
+                            fontSize: 22,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        TextButton(
+                          onPressed: () {},
+                          child: Text(
+                            "Ver mais",
+                            style: TextStyle(color: Colors.red.shade400),
+                          ),
+                        ),
+                      ],
+                    ),
+                    SizedBox(height: 4),
+                    Text(
+                      "Peça com Cupom e Entrega gratis",
+                      style: TextStyle(color: Colors.grey, fontSize: 14),
+                    ),
+                  ],
+                ),
+              ),
+
+
+              
+
 
 
             ],

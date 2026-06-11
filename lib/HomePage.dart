@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
           children: [
             Text(
               "Bom dia, User",
-              style: TextStyle(fontSize: 14, color: Colors.black),
+              style: TextStyle(fontSize: 14, color: Colors.black45),
             ),
             Row(
               children: [
@@ -114,33 +114,38 @@ class _HomePageState extends State<HomePage> {
 
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsetsGeometry.symmetric(vertical: 30),
+          padding: EdgeInsets.symmetric(vertical: 30),
           child: Column(
             children: [
-              Center(
+              Padding(padding: EdgeInsets.all(1),
+              child: Center(
                 child: Wrap(
-                  alignment: WrapAlignment.center,
-                  spacing: 25,
-                  runSpacing: 25,
-                  children: List.generate(imagens.length, (index) {
-                    return Column( children: [
-                      ElevatedButton(onPressed: (){}, child: Image.asset(imagens[index], height: 40, width: 35) ),
-                      Text(
-                              titulos[index],
-                              textAlign: TextAlign.center,
-                              maxLines: 2,
-                              style: TextStyle(
-                                fontSize: 12,
-                                fontWeight: FontWeight.w500,
-                              ),
-                            ),
-
-                    ]
                   
-                    ) ;
-                    
-                  }),
+                  alignment: WrapAlignment.center,
+                  spacing: 25, 
+                  runSpacing: 25,
+                  children: List.generate(imagens.length, (index) => Column(
+                    children: [
+                      Image.asset(
+                        imagens[index],
+                        width: 40,
+                        height: 40,
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        titulos[index],
+                        textAlign: TextAlign.center,
+                        maxLines: 2,
+                        style: TextStyle(
+                          fontSize: 12,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                      
+                    ],
+                  )),
                 ),
+              )
               ),
 
               SizedBox(height: 15),
@@ -178,41 +183,33 @@ class _HomePageState extends State<HomePage> {
                   
                 ),
               ),
-              Padding(padding: EdgeInsetsGeometry.all(10),
-              child: Center(
-                child: Wrap(
-                  alignment: WrapAlignment.center,
-                  spacing: 25,
-                  runSpacing: 25,
-                  children: List.generate(loja.length, (index) {
-                    return SizedBox( child: Column(children: [
-                      ElevatedButton(onPressed: (){}, child: Image.asset(loja[index], height: 40, width: 35) ),
-                      Text(
-                              nomeLoja[index],
-                              textAlign: TextAlign.center,
-                              maxLines: 2,
-                              style: TextStyle(
-                                fontSize: 12,
-                                fontWeight: FontWeight.w500,
-                              ),
-                            ),
-
-                    ],) 
-                  
-                    ) ;
-                    
-                  }),
+              Center(
+                child: SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: List.generate(
+                imagens.length,
+                (index) => Container(
+                  width: 100,
+                    height: 120,
+                    margin: EdgeInsets.symmetric(vertical: 8),
+                    decoration: BoxDecoration(
+                      image: DecorationImage(image: AssetImage(imagens[index])),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
                 ),
-              )
+              ),
+            ),
+          ),
               ),
 
 
 
              ConstrainedBox(
               constraints: BoxConstraints(maxHeight: 400),
-              child: CarouselView.builder(
+              child: PageView.builder(
                
-                itemExtent: 400,
+                
                 itemCount: ofertas.length,
                 itemBuilder: (context, index) => Image.asset(ofertas[index]),
               ),

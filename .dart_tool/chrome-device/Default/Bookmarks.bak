@@ -1,0 +1,617 @@
+{
+   "checksum": "9bd0cd2fa0dab80d67e003da1aebe020",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13352956623544370",
+            "date_last_used": "13393464736260067",
+            "guid": "c3a4f155-48ef-4c08-9380-453e7b980ffd",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "FATEC | Microsoft Teams",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://teams.microsoft.com/v2/",
+            "visit_count": 2
+         }, {
+            "date_added": "13353899867851415",
+            "date_last_used": "13364376284398452",
+            "guid": "29e17e80-51b6-45a0-a9cd-c03c53f1c111",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "LinkedIn",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.linkedin.com/in/amauri-carlos/",
+            "visit_count": 0
+         }, {
+            "date_added": "13329356746000529",
+            "date_last_used": "13393637858644493",
+            "guid": "40fadcc7-bd08-4dda-8012-42ebd54f447a",
+            "id": "9",
+            "name": "GitHub",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://github.com/",
+            "visit_count": 50
+         }, {
+            "date_added": "13390941091762396",
+            "date_last_used": "13393635746467077",
+            "guid": "936fdc33-6c86-4af5-bcf9-a7816bace1cc",
+            "id": "10",
+            "name": "Siga - Fatec",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://siga.cps.sp.gov.br/sigaaluno/app.aspx",
+            "visit_count": 10
+         }, {
+            "date_added": "13383066190104922",
+            "date_last_used": "13387255972886806",
+            "guid": "633d5326-a6d6-4b15-ac84-87c14ff9a8ea",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Udemy",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.udemy.com/?utm_source=bing-brand&utm_medium=udemyads&utm_campaign=BG-Brand-Udemy_la.EN_cc.ROW&campaigntype=Search&portfolio=BrandDirect&language=EN&product=Course&test=&audience=&topic=&priority=&utm_content=deal4584&utm_term=_._ag_1220458320108204_._ad__._kw_Udemy_._de_c_._dm__._pl__._ti_kwd-76278958132448_._li_147275_._pd__._&matchtype=e&msclkid=d2b5c6b2b76c1c2a5ab1a1126652371f",
+            "visit_count": 4
+         }, {
+            "date_added": "13387262537456041",
+            "date_last_used": "13393464535898485",
+            "guid": "cb719452-1004-4394-9b76-216bb743f505",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MS Planner",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://planner.cloud.microsoft/webui/mytasks/assignedtome/view/grid?tid=cf72e2bd-7a2b-4783-bdeb-39d57b07f76f",
+            "visit_count": 8
+         }, {
+            "date_added": "13363263728938842",
+            "date_last_used": "0",
+            "guid": "b7cf387a-b8cd-4adb-b4db-ae1918221def",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Html Checker",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://validator.w3.org/nu/#file",
+            "visit_count": 0
+         }, {
+            "date_added": "13358729104375437",
+            "date_last_used": "13363235796604735",
+            "guid": "db9d2d8d-70ae-4889-ae78-7621fc1f9baf",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Lorem Ipsum",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://br.lipsum.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13367202265333098",
+            "date_last_used": "0",
+            "guid": "e0244c44-6221-40f4-8411-189be6130e94",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "CheatSheets.zip ",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://cheatsheets.zip/",
+            "visit_count": 0
+         }, {
+            "date_added": "13353898866061061",
+            "date_last_used": "13362087684077712",
+            "guid": "5dcc599d-b0cf-4279-9302-d96cff6a0387",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "E-books Technology - Google Drive",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1DVD18kJl-M-LC-sAFb7QEwo8QjZYrQJO",
+            "visit_count": 0
+         }, {
+            "date_added": "13392517894292222",
+            "date_last_used": "0",
+            "guid": "03d3be7f-c17f-4b09-ad1e-b5001e92d97e",
+            "id": "17",
+            "name": "Office Online",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://m365.cloud.microsoft/?auth=2",
+            "visit_count": 1
+         }, {
+            "date_added": "13370403406904807",
+            "date_last_used": "0",
+            "guid": "4b26a532-2ea0-437c-9593-9107e376976e",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Treinamento | Microsoft Learn",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://learn.microsoft.com/pt-br/training/?wt.mc_id=rmskilling_docs_usage_email_gdc",
+            "visit_count": 1
+         }, {
+            "children": [ {
+               "date_added": "13317619589155350",
+               "date_last_used": "13391309550739072",
+               "guid": "ae24a964-b1d3-4ae8-aa75-90d578f80642",
+               "id": "20",
+               "name": "Beautiful Free Images & Pictures | Unsplash",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://unsplash.com/",
+               "visit_count": 3
+            }, {
+               "date_added": "13317619597351179",
+               "date_last_used": "13391309534557700",
+               "guid": "78ea68f5-efcc-4969-92af-6a982d0ee140",
+               "id": "21",
+               "name": "Blush: Ilustrações para todos",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://blush.design/pt",
+               "visit_count": 2
+            } ],
+            "date_added": "13317619584963944",
+            "date_last_used": "0",
+            "date_modified": "13317619597351179",
+            "guid": "33d4d4a5-effb-46d7-8d3b-d10b945d4069",
+            "id": "19",
+            "name": "Banco de Imagens",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13311279903710512",
+               "date_last_used": "0",
+               "guid": "68afd91e-786a-4a3b-a4fd-9f54b5704743",
+               "id": "23",
+               "name": "What Is Ideation? 2022 Guide To The Design Thinking Phase",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://careerfoundry.com/en/blog/ux-design/what-is-ideation-in-design-thinking/",
+               "visit_count": 0
+            }, {
+               "date_added": "13311279953104312",
+               "date_last_used": "0",
+               "guid": "65323e97-8f14-4393-a1ec-e82219f2d054",
+               "id": "24",
+               "name": "IDEO Design Thinking | IDEO | Design Thinking",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://designthinking.ideo.com/",
+               "visit_count": 0
+            }, {
+               "date_added": "13303934966872769",
+               "date_last_used": "13311279967542993",
+               "guid": "b70dbc6e-7930-4d5c-a4cb-c8369b65c1ae",
+               "id": "25",
+               "name": "Junior designers need your help. Let’s face it, design school leaves… | by Finlay Stevens-Hunt | Aug, 2022 | UX Collective",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://uxdesign.cc/junior-designers-need-your-help-265b39914491",
+               "visit_count": 0
+            }, {
+               "date_added": "13303934975951791",
+               "date_last_used": "13311279958787309",
+               "guid": "add05d9b-1196-4829-819d-cfba73bc31f6",
+               "id": "26",
+               "name": "UX & Usability Articles from Nielsen Norman Group",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.nngroup.com/articles/",
+               "visit_count": 0
+            }, {
+               "date_added": "13305600143392209",
+               "date_last_used": "13311279989462553",
+               "guid": "49e2edf6-8c06-4e0f-890d-7c7e9863d6b5",
+               "id": "27",
+               "name": "Design Sprint Community",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://designsprintkit.withgoogle.com/",
+               "visit_count": 0
+            }, {
+               "date_added": "13303934917612580",
+               "date_last_used": "13311279990802984",
+               "guid": "a518d87f-5b43-430e-93f3-adb40746fa7c",
+               "id": "28",
+               "name": "UX Design Books and Articles | Interaction Design Foundation (IxDF)",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.interaction-design.org/literature",
+               "visit_count": 0
+            }, {
+               "date_added": "13311281137321190",
+               "date_last_used": "0",
+               "guid": "b194de04-380b-410c-926a-7fa9bed25dc2",
+               "id": "29",
+               "name": "Product Designer's Guide to Competitive Analysis | Toptal",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.toptal.com/product-managers/freelance/product-designer-guide-to-competitive-analysis",
+               "visit_count": 0
+            }, {
+               "date_added": "13311281144620972",
+               "date_last_used": "0",
+               "guid": "bd5bce3e-562d-4dca-8a98-2b75b7168422",
+               "id": "30",
+               "name": "How to Conduct and Prepare a Competitive Analysis | Edward Lowe Foundation",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://edwardlowe.org/how-to-conduct-and-prepare-a-competitive-analysis/",
+               "visit_count": 0
+            }, {
+               "date_added": "13311283112728582",
+               "date_last_used": "0",
+               "guid": "4111df0b-f741-4ef2-ac60-092c3992e836",
+               "id": "31",
+               "name": "20 World-Class Presentation Experts Share Their Top Tips",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.forbes.com/sites/markfidelman/2014/08/15/20-world-class-presentation-experts-share-their-top-tips/?sh=51668e0a5c40",
+               "visit_count": 0
+            }, {
+               "date_added": "13311287706094275",
+               "date_last_used": "0",
+               "guid": "547bcd63-dbde-4d5d-b788-e6b09188083c",
+               "id": "32",
+               "name": "Crazy Concept Ideation with Crazy 8s | Switch",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.switchit.com/blog/design/crazy-concept-ideation-with-crazy-8s.aspx",
+               "visit_count": 0
+            }, {
+               "date_added": "13312791920684365",
+               "date_last_used": "0",
+               "guid": "5291f840-b059-4751-bc76-94d35fdbfe79",
+               "id": "33",
+               "name": "Web and Mobile App Sitemap. The first building block of building… | by Morgan J. Lopes | Tenrocket | Medium",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://medium.com/tenrocket/web-and-mobile-app-sitemap-643b60b0343e",
+               "visit_count": 0
+            }, {
+               "date_added": "13312791939576618",
+               "date_last_used": "0",
+               "guid": "c1788a04-bb5d-42e3-beb1-8b53f27811a9",
+               "id": "34",
+               "name": "Information Architecture. Basics for Designers. | by tubik | UX Planet",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20",
+               "visit_count": 0
+            }, {
+               "date_added": "13312791947159549",
+               "date_last_used": "0",
+               "guid": "f22fc76d-5de1-47fb-8ec4-93c12236f2ff",
+               "id": "35",
+               "name": "Information Architecture Guide for UX Architects & Designers | Adobe XD Ideas",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://xd.adobe.com/ideas/process/information-architecture/information-ux-architect/",
+               "visit_count": 0
+            }, {
+               "date_added": "13312791950948491",
+               "date_last_used": "0",
+               "guid": "360bb296-3c4e-4228-ac9b-aa152fbfb905",
+               "id": "36",
+               "name": "5 Examples of Effective Information Architecture | Adobe XD Ideas",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://xd.adobe.com/ideas/process/information-architecture/information-architecture-examples/",
+               "visit_count": 0
+            }, {
+               "date_added": "13319337331311595",
+               "date_last_used": "0",
+               "guid": "5c6e64bc-0c33-49ed-8273-e672d0777dcb",
+               "id": "37",
+               "name": "WebAIM: Web Accessibility In Mind",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://webaim.org/",
+               "visit_count": 0
+            }, {
+               "date_added": "13325647724529099",
+               "date_last_used": "0",
+               "guid": "25a7c57e-4f6c-44ad-8351-85a7c53b2ad3",
+               "id": "38",
+               "name": "3 Principles To Guide Designing For Social Change",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.fastcompany.com/3065781/3-principles-to-guide-designing-for-social-change",
+               "visit_count": 0
+            }, {
+               "date_added": "13325647728613689",
+               "date_last_used": "0",
+               "guid": "990107d7-2c04-43be-8d87-3b152ebaef64",
+               "id": "39",
+               "name": "Designing for Social Good, Not ‘Feel Good’ - NextBillion",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://nextbillion.net/designing-for-social-good/",
+               "visit_count": 0
+            }, {
+               "date_added": "13325647737024549",
+               "date_last_used": "0",
+               "guid": "bc427239-53c3-4998-aec2-8771c864b808",
+               "id": "40",
+               "name": "UX For Social Good - Usability Geek",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://usabilitygeek.com/ux-for-social-good/",
+               "visit_count": 0
+            } ],
+            "date_added": "13311279947017513",
+            "date_last_used": "0",
+            "date_modified": "13325647737024549",
+            "guid": "f6d577b3-619c-4c52-996b-f16ce2136501",
+            "id": "22",
+            "name": "UX/UI - Artigos & Recomendações ",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13334198282730288",
+               "date_last_used": "0",
+               "guid": "be430061-728c-4ff7-8e9d-6cc17a328eee",
+               "id": "42",
+               "name": "Como escrever um README incrível no seu Github | Alura",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.alura.com.br/artigos/escrever-bom-readme?_gl=1*lhe191*_ga*MjAyMDkxMDQ2MS4xNjg4NTg1MzQ5*_ga_59FP0KYKSM*MTY4OTcyMjkzOS44LjEuMTY4OTcyNDYxMi4wLjAuMA..*_fplc*cUJaJTJCWlJETDdScVBvZyUyRk1wS20zbklMNFZxd1JoZHkzSXpvVTJRJTJGY0VFeFpEUFdqampha0lVbFYlMkZBR1R4YWNFZGVwWER1aCUyRko2aTQyazNRN1FKUEdLdVVXQkVMMVZwQk95MTlkRkpjcEFrYmF3TnQxUEVZaEtwblhqOTN2QSUzRCUzRA..",
+               "visit_count": 0
+            }, {
+               "date_added": "13333852982484046",
+               "date_last_used": "13334198309884580",
+               "guid": "1a4df937-b348-481d-9d1e-5b4ae389eb79",
+               "id": "43",
+               "name": "Pseudo-classes - CSS | MDN",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes",
+               "visit_count": 0
+            } ],
+            "date_added": "13334198301806576",
+            "date_last_used": "0",
+            "date_modified": "13334198301806576",
+            "guid": "b893a1c7-8298-4809-9702-a48aabb39c9b",
+            "id": "41",
+            "name": "Dev - Artigos & Recomendações",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13340244727431320",
+               "date_last_used": "0",
+               "guid": "70023c39-8280-4ed2-b095-26252d2cf9c1",
+               "id": "45",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Swiper - The Most Modern Mobile Touch Slider",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://swiperjs.com/",
+               "visit_count": 0
+            } ],
+            "date_added": "13340244740554080",
+            "date_last_used": "0",
+            "date_modified": "13340244740554080",
+            "guid": "d7a82a80-3a7d-4733-a3e7-10056c54bfdd",
+            "id": "44",
+            "name": "Plugins JS",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13339725166925321",
+            "date_last_used": "13362126925598652",
+            "guid": "a9ec2838-dcd3-48ab-a3a1-f0318df369f9",
+            "id": "46",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Browse Fonts - Google Fonts",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://fonts.google.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13305853984713758",
+            "date_last_used": "13329356234943383",
+            "guid": "4ac58ac8-4afa-4635-87fe-abb7a02d2fd8",
+            "id": "47",
+            "name": "Portifólio",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://webflow.com/design/amaurijr",
+            "visit_count": 0
+         }, {
+            "date_added": "13308159988283243",
+            "date_last_used": "13325553791507955",
+            "guid": "9011b4dd-a0e8-4f12-88cb-78d24e9c76b4",
+            "id": "48",
+            "name": "Sharpen — Design Challenge Generator",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://sharpen.design/",
+            "visit_count": 0
+         }, {
+            "date_added": "13306121412060326",
+            "date_last_used": "13383067570091469",
+            "guid": "9e709025-65b8-4e0d-a285-0d5dc8e2b7b4",
+            "id": "49",
+            "name": "Behance ",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.behance.net/",
+            "visit_count": 1
+         }, {
+            "date_added": "13362122631270485",
+            "date_last_used": "0",
+            "guid": "e45b0b83-f505-4253-beb7-c79f26169c19",
+            "id": "50",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Placehold",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://placehold.co/",
+            "visit_count": 0
+         }, {
+            "date_added": "13384651261373791",
+            "date_last_used": "0",
+            "guid": "a97d43e2-1ffb-477a-bdab-dc62ce74be68",
+            "id": "51",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Transact-SQL Documentação",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://learn.microsoft.com/en-us/sql/t-sql/language-reference?view=sql-server-ver16",
+            "visit_count": 1
+         }, {
+            "date_added": "13386203509475586",
+            "date_last_used": "0",
+            "guid": "2c500289-8153-4a8a-801c-84d0015574ca",
+            "id": "52",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Coolors - The super fast color palettes generator!",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://coolors.co/",
+            "visit_count": 1
+         }, {
+            "date_added": "13399218398319281",
+            "date_last_used": "13408904162294060",
+            "guid": "60864435-7692-4c96-84e0-f09b9db9744c",
+            "id": "53",
+            "name": "Tinkercad",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.tinkercad.com/dashboard",
+            "visit_count": 13
+         }, {
+            "date_added": "13395389967093315",
+            "date_last_used": "13395439501701850",
+            "guid": "d5f9133c-2731-45f0-85ce-0a88a8106b16",
+            "id": "54",
+            "name": "WebAIM: Contrast Checker",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://webaim.org/resources/contrastchecker/",
+            "visit_count": 2
+         } ],
+         "date_added": "13425623322140213",
+         "date_last_used": "0",
+         "date_modified": "13399218398319281",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13425623322140213",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Outros favoritos",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13425623322140213",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos do celular",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "workspaces_v2": {
+         "children": [  ],
+         "date_added": "13425623322140213",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "75aa6670-344f-549d-b742-660f029506ab",
+         "id": "5",
+         "name": "Espaços de trabalho",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCNUeybSeAQAAKg4QABgBIAAoBTAAOABAABIAKhhQVTdZekdDQkhWQUJ6Wm1VV3JmbThBPT1IA6AGDBKOAQgFEokBChx3UkJyWkwrNlBBOWF2S2dqTlA3SlhETGNmdnM9EiRkYTY3NzhlNy05MmNkLTU3NTAtYTE1Yy0yMDhkZWZkNmM0ZDUYACAAKAAw0tLp+dgzOJPU6fnYM0CT1On52DNKHG5teDY1c1FEdnhJOFRnRWV2K0ErbnR0b1NuND1aAGUAAAAAwj4CYAASrgEINRKpAQocV29BbEQyeFg3MGJzRjVWSzhrcU9YZkRRNDQ0PRIkNjA4NjQ0MzUtNzY5Mi00Yzk2LTg0ZTAtZjA5YjlkYjk3NDRjGAAgACgAMMjg6fnYMzjF6un52DNAxerp+dgzShxPK3c4SmdQVVJXSjBTY2txY2lIK21tb1kxeFE9WiAiHv//c0IyRUVWR3E4bXNuTTJUUmg5TmlCRXovcWZvPWUsa90twj4CYAUSrQEIHRKoAQocQm9Md3Z4cE5pU1A5endnQnNpU0xxQUZjVlFnPRIkYjE5NGRlMDQtMzgwYi00MTBjLTkyNmEtN2ZhOWJlZDI1ZGMyGAAgACgAMJ/Fsb3kMDjwybG95DBA8MmxveQwShxqdkF4djg0V0JTaTFFekd2YjlSMXBnMWVLVFE9Wh8iHf1tWjFYRStRendBVngrdFQ1aXQ1Q3QvdVZBL3M9Zci2fQjCPgJgBRKuAQgxEqkBChxoYXBwNHNOVW9lVS9OdUt0MEhzVHNVL1BWQ1E9EiQ5ZTcwOTAyNS02NWI4LTRlMGQtYTI4NS0wZDVkYzhlMmI3YjQYACAAKAAw6vvEstwyOIzGsb3kMECMxrG95DBKHGdHK1ZTT20vZmszbnhYTThWaVJMWWNHZmZidz1aICIe//o0T0FWQWx6T2ZETXRHOHZxNTczRGFKaGFYeWc9ZSfrRQvCPgJgBRKuAQg0EqkBChxqUk5KSGtoWjhIdGdQOGNMUzdUTkhGQ1pWVEk9EiQyYzUwMDI4OS04MTUzLTRhOGEtODAxYy04NGQwMDE1NTc0Y2EYACAAKAAw3qrFudgyOJqwxbnYMkCasMW52DJKHGt5d01OUTZCbGNQKytYS0ZKa21zWUtMMjd3UT1aICIe//5KbytJeFdobjFjZVpzMXFBVjBCT3J1ai9MN1U9ZfJFbvfCPgJgBRKuAQgwEqkBChxYZmpOY2ZvM2JkTGpZQXY2QnFscjFrbzFPSjg9EiQ5MDExYjRkZC1hMGU4LTRmMTItODhjYi03OGQyNGU5Yzc2YjQYACAAKAAwzM3EstwyOKvGsb3kMECrxrG95DBKHGdPSy9HakJlMTRJRFNpUVJXem5lN1ZVQVJqTT1aICIe//kyTmVDM0RXWFFVRTBJT1RZY1lSd2M4Qk1DRkE9ZSdkwL/CPgJgBRKuAQguEqkBChxzeXpUTE93MGJrR0tsenpTZjhWMk1wMTVLS1k9EiRhOWVjMjgzOC1kY2QzLTQ4YWItYTNhMS1mMDMxOGRmMzY5ZjkYACAAKAAwuMvFstwyOKTiwZGHMkCk4sGRhzJKHG8xWk93RmdRNEZ6bFFNa3FvWnNVdkhlNlBMaz1aICIe//JrT2RHREx3elBMNUN6Y2IxN2QxbDJnRG9BVTg9ZQdoU5vCPgJgBRKtAQgrEqgBChxWQjRFNk1lUkkzZFFBMXRtT25pTWxyS3JuWms9EiQxYTRkZjkzNy1iMzQ4LTQ4MWQtOWQxZS01YjRhZTM4OWViNzkYACAAKAAwxKfE25YxOPLi7raVMUDy4u62lTFKHHhXRmd1bEtPSVhLcnhXQ2dSM1UzQ2NzeVEwbz1aHyIduVgrb1Rra2hEY2xweHRLK0l6cEFUc1h6RGE0UT1lbaCf9cI+AmAFEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDY5MTY1ODQwLThmZmMtNWJjNC1iMTkwLWRlN2U0ZDYwZDE4NRgAIAAoADC71ZOY4jA4g9uTmOIwQIPbk5jiMEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKsAQgqEqcBChwzRnh1dG02aEc2K1pVb0NFSDhiR0ZWOUptRU09EiRiZTQzMDA2MS03MjhjLTRmZjctOGU5ZC02Y2MxN2EzMjhlZWUYACAAKAAw6a3D25YxOL6cwtuWMUC+nMLbljFKHDVqZ0NIR3dmR2RZWXN4a3RXanpsTW9WS2RMcz1aHiIcclNwYjFzV0RIck1TM09YeWU2aGlYcUkrM0lzPWXq7zTAwj4CYAUSrgEILBKpAQocSjRxc1hTby9QS3JvQmZqQmh0OUN2YXBkeGNRPRIkZDdhODJhODAtM2E3ZC00NzMzLWEzZTctMTAwNTZjNTRiZmRkGAAgACgAMMDUwZGHMjjS4cGRhzJA0uHBkYcyShxTMDc1SDF1NHV4TkVLamlxaFFzSGdSOUM1aWs9WiAiHv/ucmRGbEtUYmhKdGg3bnlTT1EyRGhHVllNTjRJPWUAAAAAwj4CYAASrQEIGxKoAQoca01ScTltaG90MmhDMVZYSVQ5ZEhIdi9JT2VJPRIkNDllMmVkZjYtOGMwNi00ZTBmLTg5MGQtN2M3ZTk4NjNkNmI1GAAgACgAMJ3Fsb3kMDiyybG95DBAssmxveQwShx3dDhXR2NGNnZ3anh0TDY1T0ZkdTNzRVh5OHc9Wh8iHfRFakFLTDJRUTRrSzRMTE5oZk40T2VMMWNuVFk9ZXDYQ3nCPgJgBRKuAQgoEqkBChxkMXFEK2Z2MkRvQ3F0bDZQaWphdjFGNkZXQXc9EiRiYzQyNzIzOS01M2MzLTQ5OTgtYWVjMi04NzcxYzg2NGI4MDgYACAAKAAwu6am7vYwOKGnpu72MEChp6bu9jBKHEpPUStwVW5WK25SZHdnVWNWcWxaa0VVZWpnND1aICIe//9Kc3Z5UGpYMHZQZ3o4NFhJQnBKeWdSV2ZYSFU9ZVMnLMLCPgJgBRKtAQgfEqgBChxhMVZwSUVzQUIrNWpHcTRWZE9EUVNkZGZUVDA9EiQ0MTExZGYwYi1mNzQxLTRlZjItYWM2MC0wOTJjMzk5MmU4MzYYACAAKAAwocWxveQwOK/Ksb3kMECvyrG95DBKHGtFQ0JvUjlnM0tRaGNuQStPVUJWNWY5QlhrTT1aHyId/1c2dTUvemdZVU5PbGx0TWl2TDZ0b0tOaWxlST1lAAAAAMI+AmAFEq4BCCYSqQEKHGlMbllRbGcyVllhUVFHcWN2c2x1Q0FnejVhaz0SJDI1YTdjNTdlLTRmNmMtNDRhZC04MzUxLTg1YTdjNTNiMmFkMxgAIAAoADCPxaXu9jA47MWl7vYwQOzFpe72MEocd2hoemhkdkoyK0hOelk1RlFKVCtrM2FkY3pBPVogIh7//W1SYnpwK2lGd2tJNWtZeDJrcTQyY2JYOHRYST1lAAAAAMI+AmAFEq4BCCQSqQEKHDk3cnphSURVWEdaWGRIR3JoeGgvWGtNYWlzOD0SJDM2MGJiMjk2LTNjNGUtNDIyOC1hYzliLWFhMTUyZmJmYjkwNRgAIAAoADC3zbG95DA4zs+xveQwQM7Psb3kMEocSnVJWE9yYnVPVGpTaDVtQ1hGSG9YeU9wanZjPVogIh7/9mtOWnJKVGdFMHI4NWg5UW5NVVRDaitoODkvaz1l0eCY+cI+AmAFEq4BCCESqQEKHDV6T2NYWHVWWGg5Q2lKeU9OV1kwbUJnRm5yZz0SJDUyOTFmODQwLWIwNTktNDc1MS1iYzc2LTk0ZDM1ZmRiZmU3ORgAIAAoADC2zbG95DA4r8+xveQwQK/Psb3kMEocd25abEhGUGJmRVlUcExwTHlqdHVEbnVyQVZvPVogIh7/sjVoaG0xcktjNFltdkFVYjdMNTVHc0k4VGEzcz1lW4VDY8I+AmAFEq4BCCUSqQEKHHVvUkJuaEU0cU92NUhFYVNCdTNydjEydi9PTT0SJDVjNmU2NGJjLTBjMzMtNDllZC04MjczLWU2NzJkMDc3N2RjYhgAIAAoADC1zbG95DA4kM+xveQwQJDPsb3kMEocN3hDMDhLd0I2bTY3Q0kyZmhpYlBVNW1CczNrPVogIh7/+zRvVHBiYk9wNDhUdzdteXRUM0JlMUZtaFdtYz1lz236ksI+AmAFEq4BCCMSqQEKHGRNQlNnNzVCWE5JcHhScmtLRUIvMEZveFFnOD0SJGYyMmZjNzZkLTVkZTEtNDdmYi04ZWM0LTkzYzEyMjM2ZjJmZhgAIAAoADC0zbG95DA48c6xveQwQPHOsb3kMEocUGlycFJRaDhTS3czL1FCRlcrQWZRdlVIZmdRPVogIh7/7FI1cW5sdWhjc3dmMk9KUzBZMFJzZjBkTnRlWT1l0eCY+cI+AmAFEq4BCCISqQEKHGFQYmwxWmNhbGgzVlAyV254d1d2TkhVMXRqbz0SJGMxNzg4YTA0LWJiNWQtNDJlMy1iZWIxLThiNTNmMjc4MTFhORgAIAAoADCzzbG95DA40c6xveQwQNHOsb3kMEocY1Fnb1c2SDV3SGp3cFZTZytHNFNVWEU2VWRFPVogIh7/2TA1VGh3dkcvN0dXdFBFbFlkYkZET0dXb2Nwbz1lW4VDY8I+AmAFEq0BCB4SqAEKHEpZdERtTTN0b3QxUmt1Q1J5YVlRbFlBcjk5az0SJGJkNWJjZTNlLTU2MmQtNGRjYS04YTk4LTJiNzViNzE2ODQyMhgAIAAoADCgxbG95DA4j8qxveQwQI/Ksb3kMEocdHp0NHg5dFlxTnh5Nm03V2pGeTM4SlFad21VPVofIh3+R2N0RUFvV3NlQ05sci9xaVh4djEySktHbDJzPWWHxPW4wj4CYAUSrQEIBxKoAQoccVpSSTVoWHhEMm5MYUF0QzV4RExIKzFaSDJRPRIkYzNhNGYxNTUtNDhlZi00YzA4LTkzODAtNDUzZTdiOTgwZmZkGAAgACgAMLSi+7/zMjjt4cGRhzJA7eHBkYcyShxLQ09ZUjRFMTdXL09uYnJsWm4yd2F1VGFtSzQ9Wh8iHRNaMjdJSGgxa2puWmxWREhiNHhmOU5LK3lEVlE9ZcCi/V7CPgJgBRKuAQgvEqkBChx0a01wSXR4dVpqTzU3RnJMUWsyOWlaRUQ5a3M9EiQ0YWM1OGFjOC00YWZhLTQ2MzUtODdmZS1hYmI3YTAyZDJmZDgYACAAKAAww9TBkYcyOIbIsb3kMECGyLG95DBKHFNka0NiVWxBSjlKcmtaayswS0cxZkdHUWhsUT1aICIe//d6ME1CVnpDcm9HWWlOTk5IRjQzaFE3eG4wbDQ9ZeX6ZKvCPgJgBRKuAQgyEqkBChxXUFFPY1pYUGhwaHVpNzhla1ZEUGZFcE41dG89EiRlNDViMGI4My1mNTA1LTQyNTMtYmViNy1jNzlmMjYxNjljMTkYACAAKAAwvdTBkYcyOIPhwZGHMkCD4cGRhzJKHHdQdjY2Tml6SW9nMkd2NktRY3NJOVU2aytMVT1aICIe//tVQ29FMlllbWlyODFDOUkzV3pLVEN2QnhlRzg9Zdk8GM/CPgJgBRKtAQgREqgBChxuVFhnQWc0ajkzcUpDTG9zQXZhcVVpdGlSTWc9EiQwM2QzYmU3Zi1jMTdmLTRiMDktYWQxZS1iNTAwMWU5MmQ5N2UYACAAKAAwpbq9/O8yOOnYvPzvMkDp2Lz87zJKHDZoYmlyZlFSSFVtK2NRQkdTdzJYYUxiemRqbz1aHyId9XRLR20zaEhGS0pKMmtGRkVjY1JWVmhQa3ByWT1lQumZvMI+AmAFEqwBCBcSpwEKHC9JTzFvVGFFdVRxWVI2dEdjcHRRMm1id3ZBaz0SJDY4YWZkOTFlLTc4NmEtNGEzYi1hNGZkLTlmNTRiNTcwNDc0MxgAIAAoADCZxbG95DA4xMixveQwQMTIsb3kMEocdFRneVBxRGlGbHgySkhRRmszZXp6K2ExYzFBPVoeIhxJRjc4dnQ3V0ZSeURlRC9tQis0NC9XWkQ2Zm89Zatg/9nCPgJgBRKtAQgaEqgBChxkbDFaQ3A3TFNTWERWYTh4N3Qwb2cyUmFOZWM9EiRhZGQwNWQ5Yi0xMTk2LTQ4MjktODE5ZC1jZmJhNzNiYzMxZjYYACAAKAAwnMWxveQwOJLJsb3kMECSybG95DBKHE1ON2FvNWUzZHpEOG9DOWt3TXE3aitOejZDdz1aHyId6StHcDdHSEl1WVdBVjY5eHcyb3RIVUNuYmwyQT1lg3cYjcI+AmAFEq0BCBISqAEKHC9BVitGSmM4UllFWkpFWmpIS2I2Q241akdDMD0SJDRiMjZhNTMyLTJlYTAtNDM3Yy05NTkzLTkxMDdlMzc2OTc2ZRgAIAAoADDv77vLnTI4sMS7y50yQLDEu8udMkocdU8rR0FEaHY2WGc0MkpoU2llNS8vSFRDWUU4PVofIh33Ni9QcXdpeFNYQy9rNDgyL2ViYS9DSys4YXNvPWWnHNIZwj4CYAUSrAEILRKnAQocMUMxWVJVbmlzbXBrQjRjOXNOL1p6WG9jS0pzPRIkNzAwMjNjMzktODI4MC00ZWQyLWIwOTUtMjYyNTJkMmNmOWMxGAAgACgAMNmawpGHMjjXpcKRhzJA16XCkYcyShxDZ3N2OG4xejBuMWRXYWVsT0t2ZldrY1lRRFk9Wh4iHFhHZ3RTVkVKZkM2eXFUNk54aUMzWDdMT1p4ST1ly2tvmcI+AmAFEq4BCCkSqQEKHHdPS2kxcWVnd2pCT1lDa1BsZ3pxWmpjVHZ0RT0SJGI4OTNhMWM3LTgyOTgtNDgwOS05NzAyLWE0OGFhYmIzOWM5YhgAIAAoADDC1MGRhzI4v6/D25YxQL+vw9uWMUocNzBnYkhxOFFGUlloN1Z3N0J3ZHlCQUF4SUpBPVogIh7/uVlIQTJ2eDkzNHNZSlBCbjJUWTJXT0tyVGxQcz1lAAAAAMI+AmAAEq0BCBgSqAEKHGxUcXhlZ25vVmRXSE51YWVvcVVFdmRFbHlNdz0SJDY1MzIzZTk3LThmMTQtNDM5My1hMWVjLWU4MjIxOWYyZDA1NBgAIAAoADCaxbG95DA41MixveQwQNTIsb3kMEocNVNGTGEzQnpSSlFyUmpKYmlON2lEV0RMd0FvPVofIh2kQ2dKRGg1WUV0OU14N0U1OUVQdnd1anorckc4PWUws+04wj4CYAUSjgEIAhKJAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkNTRhY2IzOWQtMzQyMS01MjY1LTgxNTAtYjUzODU1ZjgzOGFlGAAgACgAMLbVk5jiMDjI2ZOY4jBAyNmTmOIwShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAAMI+AmAAEq0BCBYSqAEKHHBzcm5zVzZmcVdsaE9kbFhGZCt0VkV0UjJpbz0SJGY2ZDU3N2IzLTYxOWMtNGM1Mi05OTZiLWYxNmNlMjEzNjUwMRgAIAAoADDii8zbljE4pcixveQwQKXIsb3kMEocNitxWU1jb3g2OWZEcjJJVjN6c3N1bVQvWnhJPVofIh3+OFRGbEVjRE1QYkl6QzAyNTFMWGI1c01zNmFRPWUAAAAAwj4CYAASrAEIFBKnAQocbVVqNU04U1VreE9DWEgzaE1ROWxNWUlhVmlnPRIkYWUyNGE5NjQtYjFkMy00YWU4LWFhNzUtOTBkNTc4ZjgwNjQyGAAgACgAMMyXpbzrMjiox7G95DBAqMexveQwShxDcVk0bHJDc1MxMWVxWm1ZcUhpY2hMSklRaFE9Wh4iHDJmMzVCNXRkMXFoY0U4UW8rc3Awc0Z3TVYvbz1lvloO/MI+AmAFEq0BCBMSqAEKHEIxSTVzSlFLVldlMFZhNU9yZGlwRkgwODJGTT0SJDMzZDRkNGE1LWVmZmItNDZkNy04ZDNiLWQxMGI5NDVkNDA2ORgAIAAoADCTxbG95DA46caxveQwQOnGsb3kMEoccVFQVGo2ZDRaRG5BNENmQlhDYkFkYnJVWUFrPVofIh37WnZ6VmhvbHRUVGw5cGhKQ2NEWXFBMXRDK3lNPWUAAAAAwj4CYAASrAEIFRKnAQocNmEwQUVPendQRG9mbExxODZJWmVUc3djaEE0PRIkNzhlYTY4ZjUtZWZjYy00OTY5LTkyYWYtNmE5ODJkMGVlMTQwGAAgACgAMPqZpLzrMjjHx7G95DBAx8exveQwShxiMTN5ZExXN0dyeWFuSWtUM3IySnFSZXJBNVk9Wh4iHEVnWi95Y1dKamtwWTdKVHdMbGRCekpGdlEvVT1lxU0KDcI+AmAFEq0BCA0SqAEKHEYwMFBnMFhzRDBod201L0d3d0prUjJGVXNubz0SJGI3Y2YzODdhLWI4Y2QtNGFkYi1iNGRiLWFlMTkxODIyMWRlZhgAIAAoADC/1MGRhzI4uOHBkYcyQLjhwZGHMkocaE1tZ0xZZkFBVTZPeXdQVE5Rc2MxUHEybXF3PVofIh2ETzFuQVFCQmN4RTdmOFJIc3AxSm14NGhkRjYwPWU8nAzJwj4CYAUSrQEIEBKoAQocd1paRGlITTRTWFowK0loVTN5UkZrZ0lWQ2RFPRIkNWRjYzU5OWQtYjBjZi00Mjc5LTkzMDItZDk2Y2ZmNmEwMzg3GAAgACgAML7UwZGHMjid4cGRhzJAneHBkYcyShwwdWlSOGJSSDdDR1J3NCtyZ2QzNjRYUlQweUU9Wh8iHfNrQzRVQjdXT0JLbnNMVnBURnBMcmhuQytFRjQ9ZfqR3tvCPgJgBRKtAQgMEqgBChxHV3lkZExpMFNsR0Nud0kxNU5LNnpyMUZOazg9EiRjYjcxOTQ1Mi0xMDA0LTQzOTQtOWI3Ni0yMTZiYjc0M2Y1MDUYACAAKAAwuoXvv/MyOLyUw7LcMkC8lMOy3DJKHGlnRlI1VjI5L243YzJlZkhzdW1FdUZESkRMUT1aHyIdf2VBS3ZTcUkyRXBQcndQMVJKUXJDRnAvbXQycz1l4TOad8I+AmAFEq4BCCcSqQEKHFZEVDFWUGplcFc5eGl6c3NsbFlXZGJZSllMVT0SJDk5MDEwN2Q3LTJjMDQtNDNiZS04ZDg3LTNiMTUyZWJhZWY2NBgAIAAoADDe5KXu9jA4tuWl7vYwQLblpe72MEocYkFzb2k1MkFiTWgyWXJGVlVja1BVajF0N0x3PVogIh7//mNTNkdvVEx1dGFDMysyNmNaYTY3d2ZtQXpXRT1lGzl+y8I+AmAFEq0BCAsSqAEKHEIzQWtrU1ZGcDJYNHBIaVhZR3Z0NjNQd2grVT0SJDYzM2Q1MzI2LWE2ZDYtNGIxNS1hYzg0LTg3YzE0ZmY5YThlYRgAIAAoADDk59qv3DI41rvG4cwyQNa7xuHMMkocSXIzNG95VlBhRjRubmZISGtDU1BQNzdJU3JRPVofIh17NFNiRFYrOTVLbVJtbXBHMEo4ZjBHdE5GNjRzPWUEotYHwj4CYAUSrQEIDhKoAQocblFhcmlrNEJySGFhUHh6cENTUVJoSEpjWXVrPRIkZGI5ZDJkOGQtNzBhZS00ODg5LWFlNzgtNzYyMWZjMWY5YmFmGAAgACgAMMfUwZGHMji+4sGRhzJAvuLBkYcyShxPb1NxQUYwdnh2VlVZeU1ndEtJV0txd1FacUk9Wh8iHZthSE9tRy9zaUxwMWVHc0xXMWpoZlhOK1FFZEU9ZRmIgKnCPgJgBRKvAQg2EqoBChwrQUdEeXpIRjcyRVUyTUEvSFZSb3dWK3dLUG89EiRkNWY5MTMzYy0yNzMxLTQ1ZjAtODVjZS0wYTg4YTgxMDZiMTYYACAAKAAwx+Dp+dgzOKfq6fnYM0Cn6un52DNKHE5iVDFEazc5Q1k3SUU2ZEVGalJYaHpGMTRiaz1aISIf//+5RjYwbDVSQzBkc3lGWDcwWU16QkFDRUNxcGE4PWXPbfqSwj4CYAUSjgEIARKJAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkNGNmYzIzYWQtM2UxNC01ZDM2LTlmMjctNzAwYzY0NWYwNjMwGAAgACgAMLXVk5jiMDio2ZOY4jBAqNmTmOIwShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAAMI+AmAAEq0BCAoSqAEKHE0yS1RNSk5yVHR0MmpyV1E3QzBuN0U4YjBzbz0SJDkzNmZkYzMzLTZjODYtNGFmNS1iY2Y5LWE3ODE2YmFjZTFjYxgAIAAoADCL6MCR9DI47aLMjOoyQO2izIzqMkocUFdCaGUzT2F0bmFmODQrNkdoaXNBUm85MGZFPVofIh10Y0FwMnFrNzlrN2FpaFNyWlVGdHpsUXFBeFZnPWUAAAAAwj4CYAUSrAEICRKnAQoceGZkM0FkRFZEQU94akQ5RHZqQWptVWEvT2FBPRIkNDBmYWRjYzctYmQwOC00ZGRhLTgwMTItNDJlYmQ1NGY0NDdhGAAgACgAMIDewZL0MjiPovLWhDFAj6Ly1oQxShwvdzc5TTVGOFJBRHNIUFNQU3JmdlRPdVZNZ2c9Wh4iHG1RMkZMSVNTa3VOU0RnRUp3V09oU0NpL3NQbz1lyPM/u8I+AmAFEq0BCCASqAEKHFM2K28wY25oaFJyQlFrOUNMSTh2ZHdTbFcxQT0SJDU0N2JjZDYzLWRiZGUtNGQ1ZC1iNzg4LWU2YjA5MTg4MDgzYxgAIAAoADCixbG95DA4zsqxveQwQM7Ksb3kMEocTjlNZDc2Qy96cXBqQ0tzNGRpdXVZcHBKVjdrPVofIh3/ZC80OTgySDJhZjFFZ1p6QWhtWmd5L3hwdGNjPWUYc6Ttwj4CYAUSrQEICBKoAQocYTd1UDBMRUdheUxtb050cmd0WkVTM3RIM0s4PRIkMjllMTdlODAtNTFiNi00NWEwLWE5Y2QtYzAzYzUzZjFjMTExGAAgACgAMMXUwZGHMjiJ4sGRhzJAieLBkYcyShx3MmRWYVBrcFB3enBxZ2paRm15ZWNFR2N4dlU9Wh8iHR04S1VpQUJrQktzTTVvOUhGaVgyemx0bHVHMVk9ZUVNStHCPgJgBRKtAQgcEqgBChwzc29QSXNCQ3VaU0NmeGI0SzRuaHc0ZW0rU0U9EiRhNTE4ZDg3Zi01YjQzLTQzMGUtOTNmMy1hZGI0MDc0NmZhN2MYACAAKAAwnsWxveQwONHJsb3kMEDRybG95DBKHFBjNlpBb2lubi9GM1daRUdXU2djOHJqbDNCYz1aHyId+lpFOU9WOWdIYUZ3RGYvS0kvbjJlVmhtQm1zVT1l1Jdjq8I+AmAFEq0BCBkSqAEKHDNnV1d2K0kyOTVYdGszYXd3YkpUQmZNa2VtTT0SJGI3MGRiYzZlLTc5MzAtNGQ1Yy1hNGNiLWM4MzY5YjY1YzFhZRgAIAAoADCbxbG95DA488ixveQwQPPIsb3kMEocTXlKRTkrRkZ5MEZyMnpEKytrSTlJVVdxQm1JPVofIh3SQWRnWjZ0dGwxb2I2TzYrUC9uQnVKVlpUSWtRPWUrx5hcwj4CYAUSrgEIMxKpAQocR2NNc2c4UFVnd1RITnRoUTlTUjI0ME9vazBjPRIkYTk3ZDQzZTItMWZmYi00NzdhLWJkYWItZGM2MmNlNzRiZTY4GAAgACgAMKStsNXSMjigwq/V0jJAoMKv1dIyShxmQ3FFNzB4QTBPVGJ0UW5kN1ZzK2kvdlkvOUE9WiAiHv/9YU1henE5eDJQOUdMMzB5c2dDclM2WFNoSFUwPWWnHNIZwj4CYAUSrQEIDxKoAQocdVVpMS9aclh1NVJyLzBJR1VxUUo0RFhPZHdZPRIkZTAyNDRjNDQtNjIyMS00MGY0LTg0MTEtMTg5YmU2MTMwZTk0GAAgACgAMNiFhtWRMjjqtIXVkTJA6rSF1ZEyShxiazVXTE5TZjZaSUE0WmdLS2I4K0E1eERhWjA9Wh8iHaxpdDNHYjNqdmYyUGUvS0VTaUpKTWV3aXBrTm89ZbVqK07CPgJgBTAAOAA=",
+   "version": 1
+}

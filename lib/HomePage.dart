@@ -70,24 +70,23 @@ class _HomePageState extends State<HomePage> {
     'Loja 8',
   ];
 
-
-final List<String> categoria = [
-  'images/hamburguerIcon.png',
-  'images/hamburguerIcon.png',
-  'images/hamburguerIcon.png',
-  'images/hamburguerIcon.png',
-  'images/hamburguerIcon.png',
-  'images/hamburguerIcon.png',
-  'images/hamburguerIcon.png',
-  'images/hamburguerIcon.png',
-  'images/hamburguerIcon.png',
-  'images/hamburguerIcon.png',
-  'images/hamburguerIcon.png',
-  'images/hamburguerIcon.png',
-  'images/hamburguerIcon.png',
-  'images/hamburguerIcon.png',
-  'images/hamburguerIcon.png'
-];
+  final List<String> categoria = [
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+  ];
   final List<String> nomeCategoria = [
     'Lanches',
     'Pizza',
@@ -103,9 +102,30 @@ final List<String> categoria = [
     'Padaria',
     'Saudavel',
     'Carnes',
-    'Italiana'
+    'Italiana',
   ];
 
+  final List<String> nomeFarmacia = [
+    'Farmacia 1',
+    'Farmacia 2',
+    'Farmacia 3',
+    'Farmacia 4',
+    'Farmacia 5',
+    'Farmacia 6',
+    'Farmacia 7',
+    'Farmacia 8',
+  ];
+
+  final List<String> farmacia = [
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+    'images/hamburguerIcon.png',
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -122,10 +142,11 @@ final List<String> categoria = [
             ),
             Row(
               children: [
-                Text(
+                Expanded(child: Text(
                   "Av. Brasil, 99",
                   style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
-                ),
+                ) )
+                ,
                 TextButton(
                   onPressed: () {},
                   child: Icon(Icons.keyboard_arrow_down),
@@ -274,9 +295,10 @@ final List<String> categoria = [
                   ),
                 ),
               ),
-              SizedBox(height: 90,
-              child: SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
+              SizedBox(
+                height: 90,
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
                   child: Row(
                     spacing: 25,
                     children: List.generate(
@@ -296,11 +318,8 @@ final List<String> categoria = [
                           ),
                         ],
                       ),
-                    
+                    ),
                   ),
-                  ),
-                    
-                    
                 ),
               ),
 
@@ -337,7 +356,116 @@ final List<String> categoria = [
                 ),
               ),
 
+              SizedBox(
+                height: 220, 
+                child: GridView.builder(
+                  scrollDirection: Axis.horizontal,
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2, // 2 linhas
+                    mainAxisSpacing: 8,
+                    crossAxisSpacing: 8,
+                    childAspectRatio: 0.8, 
+                  ),
+                  itemCount: farmacia.length,
+                  itemBuilder: (context, index) {
+                    return Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Expanded(
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(12),
+                            child: Image.asset(
+                              farmacia[index],
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(width: 4),
+                        Text(
+                          nomeFarmacia[index],
+                          textAlign: TextAlign.center,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: const TextStyle(
+                            fontSize: 11,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
+                      ],
+                    );
+                  },
+                ),
+              ),
+            
+             SizedBox(
+              height: 50,
+              child: SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+    child: Row(
+      spacing: 10,
+      children: [
+        ElevatedButton(
+          onPressed: () {},
+          child:  Text("Ordenar"),
+          
+        ),
+        
+         SizedBox(width: 8),
 
+        ElevatedButton(
+          onPressed: () {},
+          child:  Text("Entrega grátis"),
+        ),
+         SizedBox(width: 8),
+
+        ElevatedButton(
+          onPressed: () {},
+          child:  Text("Vale-refeição"),
+        ),
+         SizedBox(width: 8),
+
+        ElevatedButton(
+          onPressed: () {},
+          child:  Text("Distância"),
+        ),
+
+        ElevatedButton(
+          onPressed: () {},
+          child:  Text("Entrega Rastreavel"),
+        ),
+
+        ElevatedButton(
+          onPressed: () {},
+          child:  Text("Gourmet"),
+        ),
+
+        ElevatedButton(
+          onPressed: () {},
+          child:  Text("Abertos Agora"),
+        ),
+
+        ElevatedButton(
+          onPressed: () {},
+          child:  Text("Promoção"),
+        ),
+
+        ElevatedButton(
+          onPressed: () {},
+          child:  Text("Perto de mim"),
+        ),
+
+        ElevatedButton(
+          onPressed: () {},
+          child:  Text("Preço"),
+        ),
+      ],
+    ),
+              ),
+
+
+             ),
+
+              
               
 
 
@@ -345,8 +473,6 @@ final List<String> categoria = [
             ],
           ),
         ),
-
-        
       ),
 
       bottomNavigationBar: BottomNavigationBar(

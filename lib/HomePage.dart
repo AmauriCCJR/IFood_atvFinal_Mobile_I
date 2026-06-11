@@ -142,11 +142,12 @@ class _HomePageState extends State<HomePage> {
             ),
             Row(
               children: [
-                Expanded(child: Text(
-                  "Av. Brasil, 99",
-                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
-                ) )
-                ,
+                Expanded(
+                  child: Text(
+                    "Av. Brasil, 99",
+                    style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                  ),
+                ),
                 TextButton(
                   onPressed: () {},
                   child: Icon(Icons.keyboard_arrow_down),
@@ -357,14 +358,14 @@ class _HomePageState extends State<HomePage> {
               ),
 
               SizedBox(
-                height: 220, 
+                height: 220,
                 child: GridView.builder(
                   scrollDirection: Axis.horizontal,
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2, // 2 linhas
                     mainAxisSpacing: 8,
                     crossAxisSpacing: 8,
-                    childAspectRatio: 0.8, 
+                    childAspectRatio: 0.8,
                   ),
                   itemCount: farmacia.length,
                   itemBuilder: (context, index) {
@@ -380,13 +381,13 @@ class _HomePageState extends State<HomePage> {
                             ),
                           ),
                         ),
-                        const SizedBox(width: 4),
+                        SizedBox(width: 4),
                         Text(
                           nomeFarmacia[index],
                           textAlign: TextAlign.center,
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
-                          style: const TextStyle(
+                          style: TextStyle(
                             fontSize: 11,
                             fontWeight: FontWeight.w500,
                           ),
@@ -396,80 +397,115 @@ class _HomePageState extends State<HomePage> {
                   },
                 ),
               ),
-            
-             SizedBox(
-              height: 50,
-              child: SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-    child: Row(
-      spacing: 10,
-      children: [
-        ElevatedButton(
-          onPressed: () {},
-          child:  Text("Ordenar"),
-          
-        ),
-        
-         SizedBox(width: 8),
 
-        ElevatedButton(
-          onPressed: () {},
-          child:  Text("Entrega grátis"),
-        ),
-         SizedBox(width: 8),
+              SizedBox(
+                height: 50,
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    spacing: 10,
+                    children: [
+                      ElevatedButton(onPressed: () {}, child: Text("Ordenar")),
 
-        ElevatedButton(
-          onPressed: () {},
-          child:  Text("Vale-refeição"),
-        ),
-         SizedBox(width: 8),
+                      SizedBox(width: 8),
 
-        ElevatedButton(
-          onPressed: () {},
-          child:  Text("Distância"),
-        ),
+                      ElevatedButton(
+                        onPressed: () {},
+                        child: Text("Entrega grátis"),
+                      ),
+                      SizedBox(width: 8),
 
-        ElevatedButton(
-          onPressed: () {},
-          child:  Text("Entrega Rastreavel"),
-        ),
+                      ElevatedButton(
+                        onPressed: () {},
+                        child: Text("Vale-refeição"),
+                      ),
+                      SizedBox(width: 8),
 
-        ElevatedButton(
-          onPressed: () {},
-          child:  Text("Gourmet"),
-        ),
+                      ElevatedButton(
+                        onPressed: () {},
+                        child: Text("Distância"),
+                      ),
 
-        ElevatedButton(
-          onPressed: () {},
-          child:  Text("Abertos Agora"),
-        ),
+                      ElevatedButton(
+                        onPressed: () {},
+                        child: Text("Entrega Rastreavel"),
+                      ),
 
-        ElevatedButton(
-          onPressed: () {},
-          child:  Text("Promoção"),
-        ),
+                      ElevatedButton(onPressed: () {}, child: Text("Gourmet")),
 
-        ElevatedButton(
-          onPressed: () {},
-          child:  Text("Perto de mim"),
-        ),
+                      ElevatedButton(
+                        onPressed: () {},
+                        child: Text("Abertos Agora"),
+                      ),
 
-        ElevatedButton(
-          onPressed: () {},
-          child:  Text("Preço"),
-        ),
-      ],
-    ),
+                      ElevatedButton(onPressed: () {}, child: Text("Promoção")),
+
+                      ElevatedButton(
+                        onPressed: () {},
+                        child: Text("Perto de mim"),
+                      ),
+
+                      ElevatedButton(onPressed: () {}, child: Text("Preço")),
+                    ],
+                  ),
+                ),
               ),
 
+              Padding(
+                padding: EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Lojas",
+                          style: TextStyle(
+                            fontSize: 22,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
 
-             ),
-
-              
-              
-
-
-
+              ListView.builder(
+                shrinkWrap: true,
+                physics: NeverScrollableScrollPhysics(),
+                itemCount: loja.length,
+                itemBuilder: (_, i) => Container(
+                  margin: EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+                  padding: EdgeInsets.all(10),
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.grey.shade200),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Row(
+                    children: [
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(8),
+                        child: Image.asset(
+                          imagens[i],
+                          width: 70,
+                          height: 70,
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                      SizedBox(width: 12),
+                      Text(
+                        nomeLoja[i],
+                        style: TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
             ],
           ),
         ),

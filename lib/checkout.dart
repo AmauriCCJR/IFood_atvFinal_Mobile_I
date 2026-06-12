@@ -44,12 +44,23 @@ class _checkoutState extends State<checkout> {
               children: [
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 90, vertical: 12),
-                  child: Text("Entrega",style: TextStyle(color: Colors.red,fontWeight: FontWeight.w600),
+                  child: Text(
+                    "Entrega",
+                    style: TextStyle(
+                      color: Colors.red,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 50, vertical: 12),
-                  child: Text("Retirada", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.w500)),
+                  child: Text(
+                    "Retirada",
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
                 ),
               ],
             ),
@@ -60,10 +71,51 @@ class _checkoutState extends State<checkout> {
             ),
 
             SizedBox(height: 20),
-            
-            Text("Entregar no endereço", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600)),
+
+            Padding(
+              padding: EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "Entregar no endereço",
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+                  ),
+
+
+                  SizedBox(height: 12),
+
+
+                  Row(
+                    children: [
+                      Icon(Icons.place, color: Colors.black),
+
+                      SizedBox(width: 8),
+
+
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Av. Brasil, 99",
+                            style: TextStyle(fontWeight: FontWeight.w500),
+                          ),
+                          Text(
+                            "São Roque",
+                            style: TextStyle(color: Colors.grey, fontSize: 13),
+                          ),
+                        ],
+                      ),
+                      Spacer(),
+                      TextButton(onPressed: null, child: Text("Trocar", style: TextStyle(color: Colors.red, fontWeight: FontWeight.w600),)),
+                    ],
+                  ),
+                ],
+              ),
+            ),
 
             
+
 
 
           ],

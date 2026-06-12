@@ -10,15 +10,15 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final List<String> imagens = [
     'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
+    'images/mercados.jpeg',
+    'images/farmacias.jpeg',
+    'images/bebidas.jpeg',
+    'images/viagens.jpeg',
+    'images/corridas.jpeg',
+    'images/promocoes.jpeg',
+    'images/gourmet.jpeg',
+    'images/missoes.jpeg',
+    'images/vermais.jpeg',
   ];
 
   final List<String> titulos = [
@@ -35,28 +35,29 @@ class _HomePageState extends State<HomePage> {
   ];
 
   final List<String> cupons = [
-    'images/ofertaPadrao.png',
-    'images/ofertaPadrao.png',
-    'images/ofertaPadrao.png',
-    'images/ofertaPadrao.png',
+    'images/cupom.jpeg',
+    'images/cupom2.jpeg',
+    'images/cupom3.jpeg',
+    'images/cupom4.jpeg',
+    'images/cupom5.jpeg'
   ];
 
   final List<String> promocoes = [
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
+    'images/oferta.jpeg',
+    'images/oferta2.jpeg',
+    'images/oferta3.jpeg',
+    'images/oferta4.jpeg'
   ];
 
   final List<String> loja = [
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
+    'images/loja1.jpeg',
+    'images/loja2.jpeg',
+    'images/loja3.jpeg',
+    'images/loja1.jpeg',
+    'images/loja2.jpeg',
+    'images/loja3.jpeg',
+    'images/loja1.jpeg',
+    'images/loja2.jpeg',
   ];
 
   final List<String> nomeLoja = [
@@ -71,38 +72,24 @@ class _HomePageState extends State<HomePage> {
   ];
 
   final List<String> categoria = [
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
+    'images/lanches.jpeg',
+    'images/pizza.jpeg',
+    'images/japonesa.jpeg',
+    'images/promocoes.jpeg',
+    'images/acai.jpeg',
+    'images/brasileiras.jpeg',
+    'images/doces.jpeg',
+    'images/saladas.jpeg'
   ];
   final List<String> nomeCategoria = [
     'Lanches',
     'Pizza',
-    'Açai',
-    'Promoções',
-    'Brasileira',
     'Japonesa',
+    'Promoções',
+    'Açai',
+    'Brasileira',
     'Doces & Bolo',
-    'Pastel',
-    'Sorvetes',
-    'Marmita',
-    'Salgados',
-    'Padaria',
-    'Saudavel',
-    'Carnes',
-    'Italiana',
+    'Saudavel'
   ];
 
   final List<String> nomeFarmacia = [
@@ -117,14 +104,14 @@ class _HomePageState extends State<HomePage> {
   ];
 
   final List<String> farmacia = [
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
-    'images/hamburguerIcon.png',
+    'images/farm1.jpeg',
+    'images/farm2.jpeg',
+    'images/farm3.jpeg',
+    'images/farm1.jpeg',
+    'images/farm2.jpeg',
+    'images/farm3.jpeg',
+    'images/farm1.jpeg',
+    'images/farm2.jpeg',
   ];
 
   @override
@@ -247,15 +234,16 @@ class _HomePageState extends State<HomePage> {
                 child: SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: Row(
+                    spacing: 5,
                     children: List.generate(
-                      imagens.length,
+                      loja.length,
                       (index) => Container(
                         width: 100,
                         height: 120,
                         margin: EdgeInsets.symmetric(vertical: 8),
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(imagens[index]),
+                            image: AssetImage(loja[index]),
                           ),
                           borderRadius: BorderRadius.circular(8),
                         ),

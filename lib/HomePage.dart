@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ifood_aplication/checkin.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -151,14 +152,12 @@ class _HomePageState extends State<HomePage> {
             ),
             Row(
               children: [
-                
-                  Text(
-                    "Av. Brasil, 99",
-                    style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
-                    
-                  ),
-                
-                Icon(Icons.keyboard_arrow_down)
+                Text(
+                  "Av. Brasil, 99",
+                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                ),
+
+                Icon(Icons.keyboard_arrow_down),
               ],
             ),
           ],
@@ -415,25 +414,20 @@ class _HomePageState extends State<HomePage> {
                   itemCount: farmacia.length,
                   itemBuilder: (context, index) {
                     return Row(
-                      
                       mainAxisSize: MainAxisSize.min,
 
                       children: [
-                        
                         Expanded(
-                          
-                          child: ClipRRect(//Corta imagem para deixar com canto arredondado
+                          child: ClipRRect(
+                            //Corta imagem para deixar com canto arredondado
                             borderRadius: BorderRadius.circular(12),
                             child: Image.asset(
                               farmacia[index],
                               fit: BoxFit.cover,
-                              
                             ),
-                            
                           ),
-                          
                         ),
-                        
+
                         SizedBox(width: 4),
 
                         Column(
@@ -444,7 +438,8 @@ class _HomePageState extends State<HomePage> {
                               nomeFarmacia[index],
                               textAlign: TextAlign.center,
                               maxLines: 1,
-                              overflow: TextOverflow.ellipsis, //Adiciona '...' em textos muito grandes
+                              overflow: TextOverflow
+                                  .ellipsis, //Adiciona '...' em textos muito grandes
                               style: TextStyle(
                                 fontSize: 14,
                                 fontWeight: FontWeight.w600,
@@ -475,52 +470,179 @@ class _HomePageState extends State<HomePage> {
                   child: Row(
                     spacing: 10,
                     children: [
-                      ElevatedButton(onPressed: () {}, child: Text("Ordenar")),
+                      ElevatedButton(
+                        onPressed: () {},
+                        child: Row(
+                          children: [
+                            Text(
+                              "Ordenar",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            Icon(Icons.keyboard_arrow_down_sharp),
+                          ],
+                        ),
+                      ),
 
                       SizedBox(width: 8),
 
                       ElevatedButton(
                         onPressed: () {},
-                        child: Text("Entrega grátis"),
+                        child: Row(
+                          children: [
+                            Text(
+                              "Entrega grátis",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                       SizedBox(width: 8),
 
                       ElevatedButton(
                         onPressed: () {},
-                        child: Text("Vale-refeição"),
+                        child: Row(
+                          children: [
+                            Text(
+                              "Vale-Refeição",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            Icon(Icons.keyboard_arrow_down_sharp),
+                          ],
+                        ),
                       ),
                       SizedBox(width: 8),
 
                       ElevatedButton(
                         onPressed: () {},
-                        child: Text("Distância"),
+                        child: Row(
+                          children: [
+                            Text(
+                              "Distância",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            Icon(Icons.keyboard_arrow_down_sharp),
+                          ],
+                        ),
                       ),
-
+                      SizedBox(width: 8),
                       ElevatedButton(
                         onPressed: () {},
-                        child: Text("Entrega Rastreavel"),
+                        child: Row(
+                          children: [
+                            Text(
+                              "Entrega Rastreável",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
-
-                      ElevatedButton(onPressed: () {}, child: Text("Gourmet")),
-
+                      SizedBox(width: 8),
                       ElevatedButton(
                         onPressed: () {},
-                        child: Text("Abertos Agora"),
+                        child: Row(
+                          children: [
+                            Icon(Icons.verified),
+                            Text(
+                              "Gourmet",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
-
-                      ElevatedButton(onPressed: () {}, child: Text("Promoção")),
-
+                      SizedBox(width: 8),
                       ElevatedButton(
                         onPressed: () {},
-                        child: Text("Perto de mim"),
+                        child: Row(
+                          children: [
+                            Text(
+                              "Aberto agora",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
-
-                      ElevatedButton(onPressed: () {}, child: Text("Preço")),
+                      SizedBox(width: 8),
+                      ElevatedButton(
+                        onPressed: () {},
+                        child: Row(
+                          children: [
+                            Text(
+                              "Promoção",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(width: 8),
+                      ElevatedButton(
+                        onPressed: () {},
+                        child: Row(
+                          children: [
+                            Text(
+                              "Perto de mim",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(width: 8),
+                      ElevatedButton(
+                        onPressed: () {},
+                        child: Row(
+                          children: [
+                            Text(
+                              "Preço",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            Icon(Icons.keyboard_arrow_down_sharp),
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                 ),
               ),
-
+              SizedBox(width: 8),
               Padding(
                 padding: EdgeInsets.all(16),
                 child: Column(
@@ -546,7 +668,8 @@ class _HomePageState extends State<HomePage> {
                 shrinkWrap: true,
                 physics: NeverScrollableScrollPhysics(),
                 itemCount: loja.length,
-                itemBuilder: (_, i) => Container(// '_' é o context que n foi usado
+                itemBuilder: (_, i) => Container(
+                  // '_' é o context que n foi usado
                   margin: EdgeInsets.symmetric(horizontal: 16, vertical: 6),
                   padding: EdgeInsets.all(10),
                   decoration: BoxDecoration(
@@ -568,12 +691,25 @@ class _HomePageState extends State<HomePage> {
 
                       Column(
                         mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(nomeLoja[i],style: TextStyle(fontSize: 15,fontWeight: FontWeight.w600)),
-                          Text(tempoLoja[i], style: TextStyle(fontSize: 13, fontWeight: FontWeight.w500, color: Colors.black45),)
+                          Text(
+                            nomeLoja[i],
+                            style: TextStyle(
+                              fontSize: 15,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                          Text(
+                            tempoLoja[i],
+                            style: TextStyle(
+                              fontSize: 13,
+                              fontWeight: FontWeight.w500,
+                              color: Colors.black45,
+                            ),
+                          ),
                         ],
-                      ) 
+                      ),
                     ],
                   ),
                 ),
@@ -600,7 +736,15 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
       //bottomSheet: Container(height: 40, child: Text("Rodapé")),
-      floatingActionButton: FloatingActionButton(onPressed: () {}, child: Icon(Icons.auto_awesome_sharp, color: Colors.red)),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => Checkin()),
+          );
+        },
+        child: Icon(Icons.auto_awesome_sharp, color: Colors.red),
+      ),
     );
   }
 }

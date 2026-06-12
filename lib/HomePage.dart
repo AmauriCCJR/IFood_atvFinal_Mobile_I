@@ -39,14 +39,14 @@ class _HomePageState extends State<HomePage> {
     'images/cupom2.jpeg',
     'images/cupom3.jpeg',
     'images/cupom4.jpeg',
-    'images/cupom5.jpeg'
+    'images/cupom5.jpeg',
   ];
 
   final List<String> promocoes = [
     'images/oferta.jpeg',
     'images/oferta2.jpeg',
     'images/oferta3.jpeg',
-    'images/oferta4.jpeg'
+    'images/oferta4.jpeg',
   ];
 
   final List<String> loja = [
@@ -58,6 +58,17 @@ class _HomePageState extends State<HomePage> {
     'images/loja3.jpeg',
     'images/loja1.jpeg',
     'images/loja2.jpeg',
+  ];
+
+  final List<String> tempoLoja = [
+    '5-10 min',
+    '49-55 min',
+    '24-32 min',
+    '10-25 min',
+    '30-45 min',
+    '45 min',
+    '15-89 min',
+    '2-10 min',
   ];
 
   final List<String> nomeLoja = [
@@ -79,7 +90,7 @@ class _HomePageState extends State<HomePage> {
     'images/acai.jpeg',
     'images/brasileiras.jpeg',
     'images/doces.jpeg',
-    'images/saladas.jpeg'
+    'images/saladas.jpeg',
   ];
   final List<String> nomeCategoria = [
     'Lanches',
@@ -89,7 +100,7 @@ class _HomePageState extends State<HomePage> {
     'Açai',
     'Brasileira',
     'Doces & Bolo',
-    'Saudavel'
+    'Saudavel',
   ];
 
   final List<String> nomeFarmacia = [
@@ -112,6 +123,17 @@ class _HomePageState extends State<HomePage> {
     'images/farm3.jpeg',
     'images/farm1.jpeg',
     'images/farm2.jpeg',
+  ];
+
+  final List<String> tempoFarmacia = [
+    '14 min',
+    '1 hora',
+    '7 min',
+    '1:30 hrs',
+    '15 min ',
+    '22 min',
+    '2 hrs',
+    '37 min',
   ];
 
   @override
@@ -230,6 +252,7 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ),
               ),
+
               Center(
                 child: SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
@@ -237,23 +260,36 @@ class _HomePageState extends State<HomePage> {
                     spacing: 5,
                     children: List.generate(
                       loja.length,
-                      (index) => Container(
-                        width: 100,
-                        height: 120,
-                        margin: EdgeInsets.symmetric(vertical: 8),
-                        decoration: BoxDecoration(
-                          image: DecorationImage(
-                            image: AssetImage(loja[index]),
+                      (index) => Column(
+                        children: [
+                          Container(
+                            width: 100,
+                            height: 70,
+                            margin: EdgeInsets.symmetric(vertical: 5),
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage(loja[index]),
+                              ),
+                              shape: BoxShape.circle,
+                            ),
                           ),
-                          borderRadius: BorderRadius.circular(8),
-                        ),
+                          Text(
+                            nomeLoja[index],
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ),
                 ),
               ),
+
+              SizedBox(height: 20),
               SizedBox(
-                height: 100,
+                height: 150,
                 child: PageView.builder(
                   itemCount: cupons.length,
                   itemBuilder: (context, index) => Padding(
@@ -262,39 +298,59 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
               ),
+
               SizedBox(height: 20),
               Center(
                 child: SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
+                  padding: EdgeInsets.symmetric(horizontal: 16),
                   child: Row(
+                    spacing: 5,
+
                     children: List.generate(
                       promocoes.length,
                       (index) => Container(
                         width: 100,
                         height: 120,
                         margin: EdgeInsets.symmetric(vertical: 8),
+
                         decoration: BoxDecoration(
                           image: DecorationImage(
                             image: AssetImage(promocoes[index]),
                           ),
-                          borderRadius: BorderRadius.circular(8),
+                          borderRadius: BorderRadius.circular(15),
                         ),
                       ),
                     ),
                   ),
                 ),
               ),
+
+              SizedBox(height: 30),
               SizedBox(
                 height: 90,
                 child: SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
+                  padding: EdgeInsets.symmetric(horizontal: 10),
                   child: Row(
                     spacing: 25,
                     children: List.generate(
                       categoria.length,
                       (index) => Column(
                         children: [
-                          Image.asset(categoria[index], width: 40, height: 40),
+                          Container(
+                            width: 40,
+                            height: 40,
+
+                            margin: EdgeInsets.symmetric(vertical: 5),
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage(categoria[index]),
+                              ),
+                              shape: BoxShape.circle,
+                            ),
+                          ),
+
                           SizedBox(height: 8),
                           Text(
                             nomeCategoria[index],
@@ -346,39 +402,66 @@ class _HomePageState extends State<HomePage> {
               ),
 
               SizedBox(
-                height: 220,
+                height: 250,
                 child: GridView.builder(
                   scrollDirection: Axis.horizontal,
+
+                  padding: EdgeInsets.symmetric(horizontal: 10),
+
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2, // 2 linhas
-                    mainAxisSpacing: 8,
-                    crossAxisSpacing: 8,
-                    childAspectRatio: 0.8,
+                    mainAxisSpacing: 100, // espaço entre colunas
+                    crossAxisSpacing: 3, // Espaço entre linhas
+                    childAspectRatio: 0.7, // Proporçãop largura e altura
                   ),
                   itemCount: farmacia.length,
                   itemBuilder: (context, index) {
                     return Row(
+                      
                       mainAxisSize: MainAxisSize.min,
+
                       children: [
+                        
                         Expanded(
-                          child: ClipRRect(
+                          
+                          child: ClipRRect(//Corta imagem para deixar com canto arredondado
                             borderRadius: BorderRadius.circular(12),
                             child: Image.asset(
                               farmacia[index],
                               fit: BoxFit.cover,
+                              
                             ),
+                            
                           ),
+                          
                         ),
+                        
                         SizedBox(width: 4),
-                        Text(
-                          nomeFarmacia[index],
-                          textAlign: TextAlign.center,
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                          style: TextStyle(
-                            fontSize: 11,
-                            fontWeight: FontWeight.w500,
-                          ),
+
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              nomeFarmacia[index],
+                              textAlign: TextAlign.center,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis, //Adiciona '...' em textos muito grandes
+                              style: TextStyle(
+                                fontSize: 14,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                            Text(
+                              tempoFarmacia[index],
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: TextStyle(
+                                fontSize: 12,
+                                color: Colors.grey,
+                              ),
+                            ),
+                          ],
                         ),
                       ],
                     );
@@ -389,6 +472,7 @@ class _HomePageState extends State<HomePage> {
               SizedBox(
                 height: 50,
                 child: SingleChildScrollView(
+                  padding: EdgeInsets.symmetric(horizontal: 10),
                   scrollDirection: Axis.horizontal,
                   child: Row(
                     spacing: 10,
@@ -476,20 +560,25 @@ class _HomePageState extends State<HomePage> {
                       ClipRRect(
                         borderRadius: BorderRadius.circular(8),
                         child: Image.asset(
-                          imagens[i],
+                          loja[i],
                           width: 70,
                           height: 70,
                           fit: BoxFit.cover,
                         ),
                       ),
                       SizedBox(width: 12),
-                      Text(
-                        nomeLoja[i],
-                        style: TextStyle(
-                          fontSize: 15,
-                          fontWeight: FontWeight.w600,
-                        ),
-                      ),
+
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(nomeLoja[i],style: TextStyle(fontSize: 15,fontWeight: FontWeight.w600)),
+                          Text(tempoLoja[i], style: TextStyle(fontSize: 13, fontWeight: FontWeight.w500, color: Colors.black45),)
+                        ],
+                      )
+
+
+                      
                     ],
                   ),
                 ),

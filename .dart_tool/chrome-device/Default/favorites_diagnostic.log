@@ -1,19 +1,70 @@
-2026-06-11 21:54:19.216: [INFO] VisibilityChanged: 0
-2026-06-11 21:54:19.248: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
-2026-06-11 21:54:19.250: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
-2026-06-11 21:54:19.252: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
-2026-06-11 21:54:19.254: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
-2026-06-11 21:54:19.255: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
-2026-06-11 21:54:19.257: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
-2026-06-11 21:54:19.259: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
-2026-06-11 21:54:19.261: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
-2026-06-11 21:54:19.263: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
-2026-06-11 21:54:19.265: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
-2026-06-11 21:54:19.267: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
-2026-06-11 21:54:19.282: [INFO] BookmarkModelLoaded, ids_reassigned: 0
-2026-06-11 21:54:19.282: [INFO] OnDoneLoading sync enabled: 0
-2026-06-11 21:54:19.344: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
-2026-06-11 22:13:38.051: [INFO] VisibilityChanged: 1
-2026-06-11 22:22:11.431: [INFO] VisibilityChanged: 0
-2026-06-11 22:46:39.447: [INFO] VisibilityChanged: 1
-2026-06-11 22:46:40.387: [INFO] VisibilityChanged: 0
+2026-06-12 02:34:29.409: [INFO] VisibilityChanged: 0
+2026-06-12 02:34:29.436: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-06-12 02:34:29.438: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-06-12 02:34:29.439: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-06-12 02:34:29.440: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-06-12 02:34:29.441: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-06-12 02:34:29.442: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-06-12 02:34:29.443: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-06-12 02:34:29.444: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-06-12 02:34:29.446: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-06-12 02:34:29.448: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-06-12 02:34:29.449: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-06-12 02:34:29.462: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-06-12 02:34:29.462: [INFO] OnDoneLoading sync enabled: 0
+2026-06-12 02:34:29.517: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-06-12 02:34:30.243: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-06-12 02:34:30.245: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-06-12 02:34:30.246: [INFO] Primary account changed.
+2026-06-12 02:34:30.246: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-06-12 02:34:30.249: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-06-12 02:34:31.838: [INFO] VisibilityChanged: 1
+2026-06-12 02:34:31.950: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.951: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.951: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.952: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.952: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.953: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.953: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.954: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.954: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.955: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.955: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.956: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.956: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.956: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.957: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.957: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.957: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.958: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.958: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.959: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.959: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.960: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.960: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.961: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.961: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.961: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.962: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.962: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.963: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.963: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.964: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.964: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.964: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.965: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.965: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.966: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.966: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.966: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.967: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.967: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.967: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.968: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.968: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.968: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.969: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.969: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.970: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:31.970: [INFO] BookmarkNodeAdded, ABU: 0
+2026-06-12 02:34:32.435: [INFO] Sync initialization duration: 2102ms

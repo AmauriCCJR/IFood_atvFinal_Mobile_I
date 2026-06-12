@@ -126,14 +126,14 @@ class _HomePageState extends State<HomePage> {
   ];
 
   final List<String> tempoFarmacia = [
-    '14 min',
-    '1 hora',
-    '7 min',
-    '1:30 hrs',
-    '15 min ',
-    '22 min',
-    '2 hrs',
-    '37 min',
+    '14 min • Gratis',
+    '1 hora • Gratis',
+    '7 min • Gratis',
+    '1:30 hrs • Gratis',
+    '15 min • Gratis',
+    '22 min • Gratis',
+    '2 hrs • Gratis',
+    '37 min • Gratis',
   ];
 
   @override
@@ -151,16 +151,14 @@ class _HomePageState extends State<HomePage> {
             ),
             Row(
               children: [
-                Expanded(
-                  child: Text(
+                
+                  Text(
                     "Av. Brasil, 99",
                     style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                    
                   ),
-                ),
-                TextButton(
-                  onPressed: () {},
-                  child: Icon(Icons.keyboard_arrow_down),
-                ),
+                
+                Icon(Icons.keyboard_arrow_down)
               ],
             ),
           ],
@@ -548,7 +546,7 @@ class _HomePageState extends State<HomePage> {
                 shrinkWrap: true,
                 physics: NeverScrollableScrollPhysics(),
                 itemCount: loja.length,
-                itemBuilder: (_, i) => Container(
+                itemBuilder: (_, i) => Container(// '_' é o context que n foi usado
                   margin: EdgeInsets.symmetric(horizontal: 16, vertical: 6),
                   padding: EdgeInsets.all(10),
                   decoration: BoxDecoration(
@@ -575,10 +573,7 @@ class _HomePageState extends State<HomePage> {
                           Text(nomeLoja[i],style: TextStyle(fontSize: 15,fontWeight: FontWeight.w600)),
                           Text(tempoLoja[i], style: TextStyle(fontSize: 13, fontWeight: FontWeight.w500, color: Colors.black45),)
                         ],
-                      )
-
-
-                      
+                      ) 
                     ],
                   ),
                 ),
@@ -605,7 +600,7 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
       //bottomSheet: Container(height: 40, child: Text("Rodapé")),
-      floatingActionButton: FloatingActionButton(onPressed: () {}),
+      floatingActionButton: FloatingActionButton(onPressed: () {}, child: Icon(Icons.auto_awesome_sharp, color: Colors.red)),
     );
   }
 }

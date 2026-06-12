@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ifood_aplication/checkout.dart';
 
 class Checkin extends StatefulWidget {
   const Checkin({super.key});
@@ -454,7 +455,12 @@ class _CheckinState extends State<Checkin> {
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.red,
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => checkout()),
+          );
+                      },
                       child: Text(
                         "Continuar",
                         style: TextStyle(color: Colors.white),
